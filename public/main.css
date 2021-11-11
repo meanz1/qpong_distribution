@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: bisque;
+}
+
+#header {
+  display: flex;
+  background-color: blue;
+  height: 120px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#banner {
+  color: white;
+  font-size: 60px;
+  margin-left: 20px;
+}
+
+#back_img {
+  margin-right: 20px;
+}
+
+#delivery_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 100px;
+}
+.info_list {
+  height: 120px;
+  width: 100%;
+  margin-bottom: 15px;
+  text-align: center;
+  background-color: rgb(255, 127, 249);
+}
