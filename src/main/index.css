@@ -10,35 +10,40 @@ body {
   width: 100%;
 }
 
-#title {
-  font-size: 70px;
+#tite {
+  font-size: 50px;
   font-weight: bold;
-  margin-top: 100px;
-  margin-left: 100px;
+  margin-top: 70px;
+  margin-left: 50px;
+  margin-bottom: 30px;
 }
 
 #sec {
-  margin-left: 100px;
+  margin-left: 50px;
 }
 
 #sec_1 {
-  font-size: 22px;
+  font-size: 15px;
   font-weight: bold;
   margin-top: 12px;
   margin-bottom: 30px;
 }
 
+#sec_2 {
+  font-size: 11px;
+}
+
 #btn_track {
   margin-top: 50px;
-  margin-left: 100px;
-  border-radius: 22px;
+  margin-left: 50px;
+  border-radius: 13px;
   box-shadow: none;
   color: white;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 13px;
   background-color: #40725b;
-  width: 180px;
-  height: 60px;
+  width: 100px;
+  height: 40px;
   border: none;
 }
 
