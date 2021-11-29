@@ -4,29 +4,33 @@
   padding: 0;
   font-family: "Noto Sans KR", sans-serif;
 }
-
+span {
+  display: inline-block;
+}
 body {
   background-color: #ede7d7;
   width: 100%;
 }
 
-#header {
+#heder {
   display: flex;
   background-color: #40725b;
-  height: 100px;
+  height: 60px;
+  width: 100%;
   justify-content: space-between;
   align-items: center;
 }
 
-#banner {
+#bann {
   color: white;
   font-weight: bold;
-  font-size: 48px;
+  font-size: 30px;
   margin-left: 20px;
 }
 
 #back_img {
   margin-right: 20px;
+  width: 40px;
 }
 
 #delivery_info {
@@ -39,18 +43,50 @@ body {
 }
 .info_list {
   height: 120px;
-  width: 100%;
+  width: 85%;
+  font-size: 13px;
   margin-bottom: 40px;
   display: flex;
   align-items: center;
-  margin-left: 200px;
+  margin-left: 50px;
+}
+p {
+  font-size: 12px;
+}
+#info_product {
+  margin-left: 40px;
+}
+#info_product img {
+  width: 40px;
+  margin-left: 10px;
+}
+#info_send img {
+  width: 40px;
+  margin-left: 10px;
+}
+#info_send {
+  margin-left: 40px;
+}
+#info_receive {
+  margin-left: 40px;
+}
+#info_receive img {
+  width: 40px;
+  margin-left: 10px;
+}
+#info_num {
+  margin-left: 40px;
+}
+#info_num img {
+  width: 40px;
+  margin-left: 10px;
 }
 
-.info_text {
-  margin-left: 30px;
+#content img {
+  width: 40px;
 }
 
-h2 {
+h4 {
   margin-bottom: 8px;
 }
 

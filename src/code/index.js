@@ -15,7 +15,7 @@ function CodePage() {
             id="code"
             placeholder=" 여기에 입력해주세요"
             bordered={false}
-            style={{ width: 270, height: 40, fontSize: 20 }}
+            style={{ width: 120, height: 27, fontSize: 12 }}
           />
         </div>
       </div>

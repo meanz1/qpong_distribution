@@ -1,5 +1,5 @@
 import React from "react";
-import "./index.css";
+import "../info001/index.css";
 import { Collapse } from "antd";
 import { useHistory, Link } from "react-router-dom";
 const { Panel } = Collapse;
@@ -16,8 +16,8 @@ function Info001() {
   const history = useHistory();
   return (
     <div>
-      <div id="header">
-        <span id="banner">Qpong</span>
+      <div id="heder">
+        <div id="bann">Qpong</div>
         <Link to="/">
           <img id="back_img" src="image/icon/home.png" />
         </Link>
@@ -27,7 +27,7 @@ function Info001() {
           <div class="info_list" id="info_product">
             <img src="/image/icon/box.png" />
             <span className="info_text">
-              <h2>상품명</h2>
+              <h4>상품명</h4>
 
               <Collapse ghost>
                 <Panel
@@ -42,7 +42,7 @@ function Info001() {
           <div class="info_list" id="info_send">
             <img src="/image/icon/sender.png" />
             <span className="info_text">
-              <h2>발신인</h2>
+              <h4>발신인</h4>
 
               <Collapse ghost>
                 <Panel header=" 윤하은" key="2">
@@ -56,7 +56,7 @@ function Info001() {
           <div class="info_list" id="info_receive">
             <img src="/image/icon/receiver.png" />
             <span className="info_text">
-              <h2>수신인</h2>
+              <h4>수신인</h4>
               <Collapse ghost>
                 <Panel header=" 김민지" key="3">
                   <p>주소 : {receiver_address}</p>
@@ -68,7 +68,7 @@ function Info001() {
           <div class="info_list" id="info_num">
             <img src="/image/icon/truck.png" />
             <span className="info_text">
-              <h2>운송장번호</h2>
+              <h4>운송장번호</h4>
               <div className="specific">
                 <p>운송장 번호 : {invoice_num}</p>
                 <p>지불 방법 : {payment}</p>
